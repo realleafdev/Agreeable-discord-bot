@@ -1,0 +1,14 @@
+{
+    "token": "YOUR BOT TOKEN",
+    "clientId": "YOUR CLIENT ID",
+    "guildId": "YOUR GUILD ID",
+    "channelId": "YOUR CHANNEL ID",
+    "clientName": "BOT NAME",
+    "ollamaLink": "http://127.0.0.1:11434",
+    "historyPath": "./temperary/history.json",
+    "messageDelimiter": " ",
+    "systemPrompt": {"role": "system", "content": "YOUR SYSTEM PROMPT HERE"}, 
+    "messageHistoryCap": 50,
+    "resetHistoryOnLaunch": false,
+    "accessDisplayName": false
+}
