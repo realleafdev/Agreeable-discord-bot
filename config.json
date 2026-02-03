@@ -10,5 +10,6 @@
     "systemPrompt": {"role": "system", "content": "YOUR SYSTEM PROMPT HERE"}, 
     "messageHistoryCap": 50,
     "resetHistoryOnLaunch": false,
-    "accessDisplayName": false
+    "accessDisplayName": false,
+    "modelName": "YOUR OLLAMA MODEL NAME"
 }

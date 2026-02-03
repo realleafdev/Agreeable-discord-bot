@@ -1,6 +1,6 @@
 const { Ollama } = require('ollama');
 const fs = require('fs');
-const { channelId, clientName, clientId, ollamaLink, historyPath, messageDelimiter, messageHistoryCap, accessDisplayName } = require('../config.json');
+const { channelId, clientName, clientId, ollamaLink, historyPath, messageDelimiter, messageHistoryCap, accessDisplayName, modelName } = require('../config.json');
 
 module.exports = {
     name: 'messageCreate',
@@ -66,7 +66,7 @@ module.exports = {
                 
                 // Sending the history to the AI model.
                 const response = await ollama.chat({
-                model: 'llama3.1:8b',
+                model: modelName,
                 messages: messageHistory.messages,
                 options: {
                     temperature: 0.7,
